@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/index.html"
+    "build": "rm -rf dist && mkdir -p dist && cp index.html dist/index.html"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
   }
 }
